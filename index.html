@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parallax Scrolling Website</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header id="header">
+    <a href="#" class="logo">Logo</a>
+    <ul class="navigation">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </header>
+  <section>
+    <h2 id="txt">Hello Winter</h2>
+    <img src="/assets/img/monutain_01.png" id="m1">
+    <img src="/assets/img/monutain_02.png" id="m2">
+    <img src="/assets/img/monutain_03.png" id="m3">
+    <img src="/assets/img/monutain_04.png" id="m4">
+    <img src="/assets/img/trees.png" id="tr">
+    <img src="/assets/img/cable_cars.png" id="crs">
+    <img src="/assets/img/house.png" id="house">
+  </section>
+  <div class="sec">
+    <h2>Parallax Scrolling Website</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia perspiciatis, quo illum odio cupiditate sit dolorem accusantium fuga nobis
+      delectus error illo sint alias autem fugiat nihil eum soluta quos porro hic voluptates praesentium, dolor veniam. Ullam nemo dignissimos in
+      alias incidunt eligendi, sint veritatis error odio soluta reprehenderit laudantium obcaecati, nihil autem hic harum consequatur enim quam.
+      Laboriosam nulla eaque iste deleniti impedit cumque at dolor ut amet quis labore voluptatum ratione obcaecati quidem sunt, laborum officiis!
+      Consequuntur praesentium maiores officia sed ipsam similique deleniti rerum tempora ratione aliquam, suscipit, animi sapiente quaerat blanditiis
+      autem commodi? Ratione sunt numquam voluptates cumque nulla reiciendis blanditiis, labore dolor beatae nihil sapiente nobis. At tempora nesciunt
+      cum soluta ullam assumenda est maiores, quae harum consectetur necessitatibus ipsam minus excepturi incidunt laudantium dicta quidem, ut
+      sapiente, iste porro. Nobis at tempora error accusamus qui quas libero quaerat ab architecto hic? Quibusdam impedit, necessitatibus sed iste
+      omnis praesentium fuga ratione rerum dolore ducimus facere vel ut ea possimus veniam distinctio eius soluta unde facilis placeat excepturi
+      ullam. Voluptatum repellendus vel quisquam, sed sunt repellat eaque ipsam eligendi voluptas, earum dolorem porro. Nesciunt debitis ipsam rem
+      blanditiis magnam, hic nam eligendi odit maxime illum incidunt, dolores impedit veniam libero neque vel doloremque enim itaque voluptatibus.
+      Aperiam voluptatum harum dolor pariatur ratione doloremque nobis consectetur magnam accusantium. Porro deserunt delectus ad dignissimos veniam,
+      odio rem eius pariatur, quia eum numquam. Repellendus explicabo incidunt velit, aperiam cupiditate, quis corrupti enim illum nam ea maiores
+      officiis dolore accusantium. <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quibusdam enim rem minus ab incidunt, a odit
+      eaque, iste dolorum vitae ullam unde impedit, omnis ut vel maiores? Quibusdam sapiente earum eligendi consectetur expedita eaque tempora
+      necessitatibus animi impedit nemo ipsa, atque praesentium nobis eius molestiae adipisci quos! Repellendus delectus ipsum quidem. Molestias,
+      deserunt, sint aperiam iusto doloremque harum voluptatum quo aliquam quibusdam temporibus nesciunt. Velit harum, rerum possimus aspernatur
+      commodi ex enim autem culpa voluptates libero maiores iste voluptatibus facilis. Reprehenderit repudiandae rerum vero eligendi error qui quis
+      nobis ipsa aut. Repellat itaque quam impedit illo reprehenderit autem animi quia ipsam deserunt saepe totam dolorum accusantium nam, doloremque
+      rem optio odit cum illum iusto repudiandae libero praesentium! Mollitia iure voluptate tempore officiis vel deserunt atque praesentium fuga, est
+      ab totam quibusdam libero earum harum amet nobis minus nesciunt quo quod maxime iste, nam magni impedit! Illum eius hic sapiente neque eveniet
+      quam corrupti ratione reiciendis aspernatur tempora, quasi, et unde tempore pariatur officia vel in consequatur laboriosam, exercitationem ipsum
+      reprehenderit nihil praesentium amet. Modi illum dignissimos ullam accusantium voluptas. Expedita consequatur veniam odit reiciendis deserunt ex
+      voluptas illo repudiandae cupiditate ipsum magnam perspiciatis ab alias recusandae sequi, laborum mollitia porro magni quibusdam eius dolorum
+      sed molestias! Nesciunt impedit repellendus velit culpa aperiam perspiciatis saepe repudiandae ad tempora cumque quidem nobis molestias optio
+      asperiores quo porro, eum alias ut illo libero cupiditate? Maxime ut sit, hic suscipit voluptas corrupti repellendus at adipisci quae harum quod
+      nisi non vitae sint nesciunt.
+    </p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+  <script>
+    gsap.from('#txt', {
+      scrollTrigger : {
+        scrub: true
+      },
+      x: 250
+    })
+    gsap.from('#m1', {
+      scrollTrigger : {
+        scrub: true
+      },
+      y: 100
+    })
+    gsap.from('#m2', {
+      scrollTrigger : {
+        scrub: true
+      },
+      y: 50
+    })
+    gsap.from('#m3', {
+      scrollTrigger : {
+        scrub: true
+      },
+      y: 200
+    })
+    gsap.from('#m4', {
+      scrollTrigger : {
+        scrub: true
+      },
+      y: 150
+    })
+    gsap.from('#tr', {
+      scrollTrigger : {
+        scrub: true
+      },
+      y: 150
+    })
+    gsap.from('#crs', {
+      scrollTrigger : {
+        scrub: true
+      },
+      y: 100
+    })
+    gsap.from('#house', {
+      scrollTrigger : {
+        scrub: true
+      },
+      y: 50
+    })
+  </script>
+
+
+</body>
+
+</html>
+
+
+<!-- https://www.youtube.com/watch?v=jformp_kqPk 7:35 -->
