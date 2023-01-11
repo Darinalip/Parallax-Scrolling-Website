@@ -5,11 +5,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
   background: #58b4e7;
   min-height: 100vh;
+  
 }
 
 #header {
